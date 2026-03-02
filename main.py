@@ -17,7 +17,23 @@ RSS_FEEDS = [
     {"name": "BBC中文", "url": "http://www.bbc.co.uk/zhongwen/simp/index.xml"},
     {"name": "纽约时报中文", "url": "https://cn.nytimes.com/rss"},
     {"name": "联合早报", "url": "https://www.zaobao.com/news/rss.xml"},
-    # 添加你喜欢的其他源
+    # 财经商业
+    {"name": "FT中文网", "url": "https://www.ftchinese.com/rss/feed"},
+    # 科技
+    {"name": "TechCrunch", "url": "https://techcrunch.com/feed/"},
+    # 中文科技
+    {"name": "少数派", "url": "https://sspai.com/feed"},
+    # 独立博客
+    {"name": "阮一峰", "url": "https://www.ruanyifeng.com/blog/atom.xml"},
+    # 设计创意
+    {"name": "Dribbble", "url": "https://dribbble.com/feed"},
+    # 科学文化
+    {"name": "National Geographic", "url": "https://www.nationalgeographic.com/rss"},
+    # 生活趣味
+    {"name": "Lifehacker", "url": "https://lifehacker.com/feed"},
+    # 聚合
+    {"name": "Reddit World News", "url": "https://www.reddit.com/r/worldnews/.rss"},
+]
 ]
 
 def fetch_news():
