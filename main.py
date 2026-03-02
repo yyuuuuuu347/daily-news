@@ -45,7 +45,7 @@ def fetch_news():
     for feed in RSS_FEEDS:
         try:
             d = feedparser.parse(feed["url"])
-            for entry in d.entries[:5]:  # 每个源最多取5条
+            for entry in d.entries[:20]:  # 每个源最多取20条
                 # 尝试解析发布时间
                 pub_time = None
                 if hasattr(entry, 'published_parsed'):
@@ -79,7 +79,7 @@ def summarize_news(news_list):
     请根据以下新闻列表，生成一份“每日早报”。
     要求：
     1. 筛选出最重要的3-5条新闻
-    2. 每条新闻用一句话概括核心内容
+    2. 每条新闻用一句话精准概括核心内容
     3. 格式简洁，适合微信阅读
     4. 使用中文
     
