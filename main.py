@@ -14,8 +14,9 @@ PUSHPLUS_TOKEN = os.getenv("PUSHPLUS_TOKEN")
 
 # 新闻源 (RSS) - 你可以自由增删 [citation:1][citation:3]
 RSS_FEEDS = [
+    # 国际综合
     {"name": "BBC中文", "url": "http://www.bbc.co.uk/zhongwen/simp/index.xml"},
-    {"name": "纽约时报中文", "url": "https://cn.nytimes.com/rss"},
+    # 中文媒体
     {"name": "联合早报", "url": "https://www.zaobao.com/news/rss.xml"},
     # 财经商业
     {"name": "FT中文网", "url": "https://www.ftchinese.com/rss/feed"},
@@ -34,7 +35,6 @@ RSS_FEEDS = [
     # 聚合
     {"name": "Reddit World News", "url": "https://www.reddit.com/r/worldnews/.rss"},
 ]
-
 def fetch_news():
     """抓取过去24小时的新闻"""
     news_list = []
