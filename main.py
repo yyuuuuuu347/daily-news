@@ -16,7 +16,7 @@ PUSHPLUS_TOKEN = os.getenv("PUSHPLUS_TOKEN")
 RSS_FEEDS = [
     {"name": "BBC中文", "url": "http://www.bbc.co.uk/zhongwen/simp/index.xml"},
     {"name": "联合早报", "url": "https://www.zaobao.com/news/rss.xml"},
-    {"name": "TechCrunch", "url": "https://techcrunch.com/feed/"},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/feed"},
     {"name": "少数派", "url": "https://sspai.com/feed"},
     {"name": "阮一峰", "url": "https://www.ruanyifeng.com/blog/atom.xml"},
     {"name": "Dribbble", "url": "https://dribbble.com/feed"},
