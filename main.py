@@ -34,7 +34,6 @@ RSS_FEEDS = [
     # 聚合
     {"name": "Reddit World News", "url": "https://www.reddit.com/r/worldnews/.rss"},
 ]
-]
 
 def fetch_news():
     """抓取过去24小时的新闻"""
